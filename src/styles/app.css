@@ -1,0 +1,155 @@
+body {
+	width: 100%;
+	margin: 0;
+	background-color: #FFDE9F;
+	color: #7A0101;
+	font-size: x-large;
+	font-family: 'Nova Mono', 'monospace';
+	font-weight: 300;
+}
+
+h1 {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.work-time {
+	margin: 0 auto 0px;
+	padding: 6% 0;
+	text-align: center;
+	font-size: 3em;
+}
+
+.time-setters {
+	text-align: center;
+	
+	width: 100%;
+	margin: 0 auto;
+}
+
+.work-choice-widget {
+	
+	background-color: #FFDE9F;
+	color: #7A0101;
+	/*border-style: solid;
+	border-color: #7A0101;
+	border-width: 2px;
+	border-radius: 50px;*/
+	text-align: center;
+	font-size: 2.3em;
+	
+}
+
+.work-label {
+	font-size: .6em;
+}
+
+.work-setter {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+
+.break-choice-widget {
+	
+	background-color: #FFDE9F;
+	color: #7A0101;
+	/*border-style: solid;
+	border-color: #7A0101;
+	border-width: 2px;
+	border-radius: 50px;*/
+	text-align: center;
+	font-size: 2.3em;
+}
+
+.break-label {
+	font-size: .6em;
+}
+
+.break-setter {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+
+.buttons {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.start-button {
+	width: 80px;
+	height: 80px;
+	margin: 10% 5%;
+	padding: 10px 10px;
+	background-color: #FFDE9F;
+	color: #7A0101;
+	border-style: solid;
+	border-color: #7A0101;
+	border-radius: 50px;
+	font-size: .7em;
+	font-family: 'Nova Mono', 'monospace';
+	float: left;
+}
+
+.start {
+	
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.reset-button {
+	width: 80px;
+	height: 80px;
+	margin: 10% 5%;
+	padding: 10px 10px;
+	background-color: #FFDE9F;
+	color: #7A0101;
+	border-style: solid;
+	border-color: #7A0101;
+	border-radius: 50px;
+	font-size: .7em;
+	font-family: 'Nova Mono', 'monospace';
+	float: right;
+}
+
+
+.reset {
+	width: 80px;
+	height: 80px;
+	float: right;
+}
+
+@media screen and (min-width: 700px) {	
+	
+	.work-setter {
+		width: 30%;
+		float: left;
+		margin-left: 20%;
+	}
+	
+	.break-setter {
+		width: 30%;
+		float: right;
+		margin-right: 20%;
+	}
+	
+	.buttons {
+		width: 40%;
+	}
+	
+
+}
+
+@media screen and (min-width: 1100px) {	
+	.app {
+		width: 70%;
+		margin: 0 auto;
+	
+	}
+}
+
